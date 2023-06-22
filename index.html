@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "score">
+                <h3>HOME</h3>
+                <div class = "box" id = "score-home">
+                    <span class = "box-text" id = "disp-score-home"></span>
+                </div>
+                <div class="btns-container">
+                    <button class = "btns" id = "btn-h-1" onclick="btnh1()">+1</button>
+                    <button class = "btns" id = "btn-h-2" onclick="btnh2()">+2</button>
+                    <button class = "btns" id = "btn-h-3" onclick="btnh3()">+3</button>
+                </div>
+            </div>
+            <div class = "score">
+                <h3>GUEST</h3>
+                <div class = "box" id = "score-guest">
+                    <span class = "box-text" id = "disp-score-guest"></span>
+                </div>
+                <div class="btns-container">
+                    <button class = "btns" id = "btn-g-1" onclick="btng1()">+1</button>
+                    <button class = "btns" id = "btn-g-2" onclick="btng2()">+2</button>
+                    <button class = "btns" id = "btn-g-3" onclick="btng3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id = "footer">
+                <button id = "footer-btn" onclick="reset()"> New Game </button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>

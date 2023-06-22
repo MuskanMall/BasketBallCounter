@@ -1,0 +1,90 @@
+@font-face { font-family: Cursed Timer ULiL; src: url('CursedTimerUlil-Aznm.ttf'); }
+
+body {
+    margin: 0;
+    background-color: #1B244A; 
+}
+h3{
+    margin-bottom: 5px;
+}
+.score{
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 155px;
+    height: 120px;
+    /* The flex-shrink property specifies how much the item will shrink compared to other items inside that container. It defines the ability of an element to shrink in comparison to the other elements which are placed inside the same container. 
+    flex-shrink: 0 - means this wont shrink*/
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #080001;
+    color : #F94F6D;
+    }
+
+.box-text{
+    /* If your line height is set to 120px and your text size is 80px, there will be a gap of 20px between the top and bottom of the text within each line. The line height property specifies the height of the line box, which includes the height of the text and any additional vertical spacing.
+
+    In your case, the line height is larger than the text size, so there will be extra space above and below the text within each line. The amount of space will be half of the difference between the line height and the text size.
+
+    Using the values you provided:
+    Line height: 120px
+    Text size: 80px
+
+    Difference: 120px - 80px = 40px
+    Gap: 40px / 2 = 20px
+
+    So, there will be a 20px gap between the top and bottom of the text within each line. */
+
+    line-height: 126.666px;
+    margin :  10px;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+}
+
+.container {
+    margin-bottom : 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    background-color: #1B244A;
+    color : #9AABD8; 
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cursed Timer ULiL;
+    line-height: 27.812px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right : auto;
+    
+    
+}
+
+#footer-btn {
+    color : #9AABD8;
+    background-color: #1B244A;
+    line-height: 100px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width : 300px;
+    font-size : 30px;
+}
